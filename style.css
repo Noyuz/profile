@@ -1,108 +1,96 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
 body {
-  background-color: #F7F9FC;
-  font-family: 'Roboto';
-  display: block;
-  margin: 8px;
-  color: #575F7D;
-  font-size: 20px;
-}
-
-p {
-  margin-bottom: 40px;
-  text-align: center;
-  font-family: 'Lora'
-}
-
-
-h1 {
-font-size: 32px;
+  background-color : #f6f9fc;
+  color: #583d72;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #6B72E1;
-  font-weight: 600;
-  font-size: 16px;
 }
 
-a:hover {
-  color: black;
+h1 {
+  color: #9f5f80;
 }
-
 
 h2 {
-  color: #7ECE90;
-  font-weight: 500;
+  color: #ff8e71;
 }
 
 img {
-  width: 100px;
   border-radius: 50%;
 }
 
-  .container {
-    width: 700px;
-    margin: 40px auto;
-  }
-
-.card {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
-  text-align: center;
+.container {
+  width: 700px;
+  margin: 40px auto;
 }
 
 .btn-blue {
-    background-color: #6B72E1;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 4px;
+  background-color : #5c67e1;
+  color: white;
+  border-radius: 4px;
+  padding: 16px 24px;
+  border: 1px solid transparent;
+  font-weight: 500;
 }
 
 .btn-blue:hover {
-    background-color: black;
-    color: white;
+  background-color: #9e5f80;
+  border: 1px solid #9e5f80;
 }
 
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
-.list-inline > li {
+.list-inline li {
   display: inline;
-  padding: 10px;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  padding: 40px;
+  margin: 24px auto;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .list-inline i {
-  font-size: 50px;
-  color: rgb(230, 230, 230);
+  color: #9f5f80;
+  font-size: 54px;
+  padding: 0 8px;
 }
 
 .list-inline i:hover {
-  color: black
+  color: #5c67e0;
+}
+
+#introduction {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
-    margin: 40px auto;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
-    margin: 40px auto;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
-    margin: 40px auto;
+    width: 380px;
   }
 }
